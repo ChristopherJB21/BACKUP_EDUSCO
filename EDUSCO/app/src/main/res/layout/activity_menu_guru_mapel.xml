@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="#FFD200"
+    android:orientation="vertical"
+    tools:context=".MenuGuru_Mapel">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mata pelajaran yang diampu"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_agama"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_agama"
+                android:onClick="Agama" />
+
+            <Button
+                android:id="@+id/button_pkn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/mapel_pkn"
+                android:onClick="pkn" />
+
+            <Button
+                android:id="@+id/button_indo"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/mapel_indo"
+                android:onClick="Indo" />
+
+            <Button
+                android:id="@+id/button_math"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_math"
+                android:onClick="Math" />
+
+            <Button
+                android:id="@+id/button_sejarah"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_sejarah"
+                android:onClick="sejarah" />
+
+            <Button
+                android:id="@+id/button_bing"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_bing"
+                android:onClick="Bing" />
+
+            <Button
+                android:id="@+id/button_art"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_art"
+                android:onClick="Art" />
+
+            <Button
+                android:id="@+id/button_or"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_or"
+                android:onClick="or" />
+
+            <Button
+                android:id="@+id/button_pkwu"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_pkwu"
+                android:onClick="pkwu" />
+
+            <Button
+                android:id="@+id/button_mathminat"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_matminat"
+                android:onClick="mathminat"/>
+
+            <Button
+                android:id="@+id/button_biologi"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_biologi"
+                android:onClick="Biologi" />
+
+            <Button
+                android:id="@+id/button_fisika"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_fisika"
+                android:onClick="Fisika" />
+
+            <Button
+                android:id="@+id/button_kimia"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_kimia"
+                android:onClick="kimia"/>
+
+            <Button
+                android:id="@+id/button_bingminat"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_bingminat"
+                android:onClick="Bingminat"/>
+
+            <Button
+                android:id="@+id/button_bjerman"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/mapel_bjerman"
+                android:onClick="Bjerman" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

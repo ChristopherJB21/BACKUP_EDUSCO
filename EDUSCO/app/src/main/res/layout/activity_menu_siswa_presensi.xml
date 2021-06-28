@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    tools:context=".MenuSiswa_Presensi">
+
+    <TableRow
+        android:id="@+id/TR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/text_nopresensi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomer Presensi"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textColorHighlight="@color/text_color"
+            android:textColorHint="@color/text_color"
+            android:textColorLink="@color/text_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_nopresensi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="No Absen"
+            android:inputType="number"
+            android:textColor="@color/text_color"
+            android:textColorHighlight="@color/text_color"
+            android:textColorHint="@color/text_color"
+            android:textColorLink="@color/text_color"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/icon_next"
+        android:layout_below="@id/TR"
+        android:layout_centerInParent="true"
+        android:onClick="next"
+        android:textAllCaps="true" />
+
+</RelativeLayout>

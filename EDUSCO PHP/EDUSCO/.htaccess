@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^eduscojb\.educationscoring\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.eduscojb\.educationscoring\.com$
+RewriteRule ^/?$ "https\:\/\/educationscoring\.com\/" [R=301,L]
+
